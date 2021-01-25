@@ -1,17 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        int InitialBalance = 100;
+        int initialBalance = 100;
         int receipt = 100;
         int bonus = receipt / 100;
 
-        if (receipt > 1000){
+        if (receipt > 1000) {
             bonus = receipt / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
 
-        int balance = InitialBalance + receipt + bonus;
+        int balance = initialBalance + receipt + bonus;
 
         System.out.println(balance);
     }
